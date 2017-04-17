@@ -11,3 +11,5 @@
 **compile assets**
 
 ```RAILS_ENV=production bundle exec rake assets:precompile```
+
+```react-native run-ios --configuration Release)```
