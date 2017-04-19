@@ -12,4 +12,10 @@
 
 ```RAILS_ENV=production bundle exec rake assets:precompile```
 
+run release version on device - React-Native IOS
+
 ```react-native run-ios --configuration Release)```
+
+debugging command - React-Native Android
+
+```cd android/ && ./gradlew clean && cd .. && react-native run-android```
