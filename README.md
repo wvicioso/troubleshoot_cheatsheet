@@ -19,3 +19,7 @@ run release version on device - React-Native IOS
 debugging command - React-Native Android
 
 ```cd android/ && ./gradlew clean && cd .. && react-native run-android```
+
+install deprecated components 
+
+```npm i react-native-deprecated-custom-components```
