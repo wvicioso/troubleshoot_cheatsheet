@@ -23,3 +23,7 @@ debugging command - React-Native Android
 install deprecated components 
 
 ```npm i react-native-deprecated-custom-components```
+
+npm and yarn parallels
+
+https://yarnpkg.com/lang/en/docs/migrating-from-npm/
