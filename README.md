@@ -12,18 +12,22 @@
 
 ```RAILS_ENV=production bundle exec rake assets:precompile```
 
-run release version on device - React-Native IOS
+**run release version on device - React-Native IOS**
 
 ```react-native run-ios --configuration Release)```
 
-debugging command - React-Native Android
+**debugging command - React-Native Android**
 
 ```cd android/ && ./gradlew clean && cd .. && react-native run-android```
 
-install deprecated components 
+**install deprecated components**
 
 ```npm i react-native-deprecated-custom-components```
 
-npm and yarn parallels
+**npm and yarn parallels**
 
 https://yarnpkg.com/lang/en/docs/migrating-from-npm/
+
+**PG Bad connection troubleshoot for Rails**
+
+```rm /usr/local/var/postgres/postmaster.pid```
