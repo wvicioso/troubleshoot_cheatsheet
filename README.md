@@ -31,3 +31,13 @@ https://yarnpkg.com/lang/en/docs/migrating-from-npm/
 **PG Bad connection troubleshoot for Rails**
 
 ```rm /usr/local/var/postgres/postmaster.pid```
+```brew services restart postgresql```
+
+***else nuke PG***
+
+```gem uninstall pg```
+```brew uninstall --force postgresql```
+```brew install postgresql```
+```gem install pg```
+add pg with current version to gemfile. Delete Gem.lock
+```bundle install```
