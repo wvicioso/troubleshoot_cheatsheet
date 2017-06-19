@@ -33,7 +33,7 @@ https://yarnpkg.com/lang/en/docs/migrating-from-npm/
 ```rm /usr/local/var/postgres/postmaster.pid```
 ```brew services restart postgresql```
 
-***else nuke PG***
+****else nuke PG****
 
 ```gem uninstall pg```
 ```brew uninstall --force postgresql```
