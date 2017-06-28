@@ -30,8 +30,7 @@ https://yarnpkg.com/lang/en/docs/migrating-from-npm/
 
 **PG Bad connection troubleshoot for Rails**
 
-```rm /usr/local/var/postgres/postmaster.pid```
-```brew services restart postgresql```
+```rm /usr/local/var/postgres/postmaster.pid && brew services restart postgresql```
 
 ****else nuke PG****
 
