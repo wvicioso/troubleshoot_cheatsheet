@@ -1,3 +1,7 @@
+**install Rail Walkthrough**
+
+http://railsapps.github.io/xcode-command-line-tools.html
+
 **reset local branch to mirror origin**
 
 ```git reset --hard origin/branch_name```
