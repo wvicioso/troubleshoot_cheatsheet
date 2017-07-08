@@ -49,3 +49,14 @@ https://yarnpkg.com/lang/en/docs/migrating-from-npm/
 add pg with current version to gemfile. Delete Gem.lock
 
 ```bundle install```
+
+
+**code-push**
+
+check active downloads
+
+```code-push deployment ls <appName>```
+
+deploy to production
+
+```code-push release-react <appName> ios -d Production```
