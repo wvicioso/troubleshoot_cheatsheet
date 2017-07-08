@@ -1,6 +1,34 @@
-**install Rail Walkthrough**
+## Here are links, commands, and other trouble shooting methods I have found myself looking up more than once
+
+### Ruby on Rails
+
+**Install Rails Walkthrough**
 
 http://railsapps.github.io/xcode-command-line-tools.html
+
+**compile assets**
+
+```RAILS_ENV=production bundle exec rake assets:precompile```
+
+**PG Bad connection**
+
+```rm /usr/local/var/postgres/postmaster.pid && brew services restart postgresql```
+
+**else nuke PG**
+
+```gem uninstall pg```
+
+```brew uninstall --force postgresql```
+
+```brew install postgresql```
+
+```gem install pg```
+
+*add pg with current version to gemfile. Delete Gem.lock*
+
+```bundle install```
+
+### GIT
 
 **reset local branch to mirror origin**
 
@@ -12,13 +40,23 @@ http://railsapps.github.io/xcode-command-line-tools.html
 
 ```git reset --hard HEAD```
 
-**compile assets**
+**force push**
 
-```RAILS_ENV=production bundle exec rake assets:precompile```
+```git push origin <branchName> -f```
+
+**WARNING:(Destructive) -rollback to a previous commit**
+
+ ```git checkout master```
+
+```git reset --hard <commit>```
+
+```git push origin master```
+
+### React-Native
 
 **run release version on device - React-Native IOS**
 
-```react-native run-ios --configuration Release)```
+```react-native run-ios --configuration Release```
 
 **debugging command - React-Native Android**
 
@@ -32,31 +70,13 @@ http://railsapps.github.io/xcode-command-line-tools.html
 
 https://yarnpkg.com/lang/en/docs/migrating-from-npm/
 
-**PG Bad connection troubleshoot for Rails**
 
-```rm /usr/local/var/postgres/postmaster.pid && brew services restart postgresql```
+### Code-Push
 
-****else nuke PG****
-
-```gem uninstall pg```
-
-```brew uninstall --force postgresql```
-
-```brew install postgresql```
-
-```gem install pg```
-
-add pg with current version to gemfile. Delete Gem.lock
-
-```bundle install```
-
-
-**code-push**
-
-check active downloads
+**check active downloads**
 
 ```code-push deployment ls <appName>```
 
-deploy to production
+**deploy to production**
 
 ```code-push release-react <appName> ios -d Production```
