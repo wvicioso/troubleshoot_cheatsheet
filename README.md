@@ -1,5 +1,13 @@
 ## Here are links, commands, and other trouble shooting methods I have found myself looking up more than once
 
+### MISC
+
+**bash cheat sheet https://ss64.com/bash/syntax-prompt.html**
+
+**bash style**
+
+```PS1='\e[31;1m\e[31m\w\e[0m $ '```
+
 ### Ruby on Rails
 
 **Install Rails Walkthrough**
