@@ -14,6 +14,10 @@
 
 http://railsapps.github.io/xcode-command-line-tools.html
 
+**Create rails api with postgresql**
+
+```rails new api-name --api --database=postgresql```
+
 **compile assets**
 
 ```RAILS_ENV=production bundle exec rake assets:precompile```
